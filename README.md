@@ -1,5 +1,24 @@
-# Introduction
-This repo holds the Dockerfile image used for the Metabase application currently available in the Edge Orchestration Marketplace. Metabase is an open-source business intelligence tool that simplifies data analysis and visualization. It connects to various databases and allows users to create interactive dashboards and reports.
+# metabase
+
+## Important Information
+
+This repository contains Emerson-authored deployment and integration examples for an open-source application that can run on DeltaV Edge. The application is not part of DeltaV Edge, is not required for its operation, and does not modify its functionality. All repository contents are provided as examples only. Users are responsible for securing, validating, testing, and maintaining configurations before production use.
+
+## Relationship to DeltaV Edge
+
+Metabase is an optional third-party business intelligence and visualization tool.
+
+Metabase may be used to connect to supported data sources and visualize information made available through DeltaV Edge integrations.
+
+Metabase is not part of the DeltaV Edge architecture and does not participate in DeltaV Edge platform operations.
+
+## About Metabase
+
+Metabase is an open-source business intelligence and data visualization platform that enables users to explore data, build dashboards, create reports, and share insights across their organization.
+
+Metabase can connect to a variety of supported data sources and provides both no-code and SQL-based tools for exploring, querying, visualizing, and sharing information.
+
+When used alongside DeltaV Edge, Metabase can serve as an optional visualization and analytics layer that helps users explore, analyze, and report on operational data made available through supported DeltaV Edge integrations and connected data sources.
 
 ## Features
 - **Query Builder**: Easily filter, summarize, and visualize data without needing SQL knowledge.
